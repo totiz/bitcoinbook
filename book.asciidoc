@@ -2,7 +2,7 @@
 KULAP, Github
 Second Edition - Third Print
 :doctype: book
-ifdef::ebook-format-kf8[asciidoctor-epub3 -D output book.asciidoc]
+:front-cover-image: image:images/cover.png[Front Cover,1050,1600]
 
 include::howtocompile.asciidoc[]
 

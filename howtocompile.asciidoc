@@ -3,6 +3,16 @@
 = How to compile
 == How to compile
 
+=== Prepare
+add this to top of book.asciidoc
+----
+= Mastering Bitcoin
+KULAP, Github
+Second Edition - Third Print
+:doctype: book
+:front-cover-image: image:images/cover.png[Front Cover,1050,1600]
+----
+
 === Compile to epub
 ----
 $ git clone https://github.com/bitcoinbook/bitcoinbook.git
@@ -14,8 +24,18 @@ $ git checkout [release/8d85fa65c74de0474c7a7d84191c87c31be912ad/Second Edition 
 .Chapter header
 image::images/chapter_header.png["Chapter header"]
 
+----
+$ asciidoctor-epub3 -D output book.asciidoc
+----
+
 === Convert to mobi
 - https://www.epubconverter.com/epub-to-kindle-converter/
 
 === Ref
 - ref: https://asciidoctor.org/docs/asciidoctor-epub3/
+
+Nattapon KULAP
+
+[[KULAP-logo]]
+.KULAP logo
+image::images/Kulap_SQ_Color.png["KULAP Logo"]
