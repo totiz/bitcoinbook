@@ -16,7 +16,6 @@ Second Edition - Third Print
 === Compile to epub
 ----
 $ git clone https://github.com/bitcoinbook/bitcoinbook.git
-$ git checkout [release/8d85fa65c74de0474c7a7d84191c87c31be912ad/Second Edition - Third Print]
 ----
 - Add chapter header to every asciidoc files
 
