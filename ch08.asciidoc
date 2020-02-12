@@ -1,4 +1,6 @@
 [[bitcoin_network_ch08]]
+[#The Bitcoin Network]
+= The Bitcoin Network
 == The Bitcoin Network
 
 === Peer-to-Peer Network Architecture

@@ -1,4 +1,6 @@
 [[ch02_bitcoin_overview]]
+[#How Bitcoin Works]
+= How Bitcoin Works
 == How Bitcoin Works
 
 === Transactions, Blocks, Mining, and the Blockchain

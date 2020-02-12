@@ -1,5 +1,7 @@
 [[satoshi_whitepaper]]
 [appendix]
+[#The Bitcoin Whitepaper by Satoshi Nakamoto]
+= The Bitcoin Whitepaper by Satoshi Nakamoto
 == The Bitcoin Whitepaper by Satoshi Nakamoto
 
 [NOTE]

@@ -1,4 +1,6 @@
 [preface]
+[#Preface]
+= Preface
 == Preface
 
 === Writing the Bitcoin Book

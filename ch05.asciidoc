@@ -1,4 +1,6 @@
 [[ch05_wallets]]
+[#Wallets]
+= Wallets
 == Wallets
 
 ((("wallets", "defined")))The word "wallet" is used to describe a few different things in bitcoin.

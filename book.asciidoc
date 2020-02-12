@@ -1,4 +1,10 @@
 = Mastering Bitcoin
+KULAP, Github
+Second Edition - Third Print
+:doctype: book
+ifdef::ebook-format-kf8[asciidoctor-epub3 -D output book.asciidoc]
+
+include::howtocompile.asciidoc[]
 
 include::preface.asciidoc[]
 

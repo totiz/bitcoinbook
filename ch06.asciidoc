@@ -1,5 +1,7 @@
 [[ch06]]
 [[transactions]]
+[#Transactions]
+= Transactions
 == Transactions
 
 [[ch06_intro]]

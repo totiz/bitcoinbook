@@ -1,6 +1,7 @@
 [[appdx_bitcore]]
 [appendix]
-
+[#Bitcore]
+= Bitcore
 == Bitcore
 
 

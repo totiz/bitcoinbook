@@ -1,5 +1,7 @@
 [[appdxbitcoinimpproposals]]
 [appendix]
+[#Bitcoin Improvement Proposals]
+= Bitcoin Improvement Proposals
 == Bitcoin Improvement Proposals
 
 ((("bitcoin improvement proposals", "types of")))Bitcoin Improvement Proposals are design documents providing information to the bitcoin community, or for describing a new feature for bitcoin or its processes or environment.

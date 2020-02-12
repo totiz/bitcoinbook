@@ -1,5 +1,7 @@
 [[ch07]]
 [[adv_transactions]]
+[#Advanced Transactions and Scripting]
+= Advanced Transactions and Scripting
 == Advanced Transactions and Scripting
 
 [[ch07_intro]]

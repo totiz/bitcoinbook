@@ -1,4 +1,6 @@
 [[mining]]
+[#Mining and Consensus]
+= Mining and Consensus
 == Mining and Consensus
 
 

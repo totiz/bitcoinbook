@@ -1,4 +1,6 @@
 [[ch12]]
+[#Blockchain Applications]
+= Blockchain Applications
 == Blockchain Applications
 
 Let's now build on our understanding of bitcoin by looking at it as an _application platform_. Nowadays, many people use the term "blockchain" to refer to any application platform that shares the design principles of bitcoin. The term is often misused and applied to many things that fail to deliver the primary features that bitcoin's blockchain delivers.

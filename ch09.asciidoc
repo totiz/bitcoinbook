@@ -1,4 +1,6 @@
 [[blockchain]]
+[#The Blockchain]
+= The Blockchain
 == The Blockchain
 
 === Introduction
