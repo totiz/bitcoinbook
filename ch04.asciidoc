@@ -129,7 +129,7 @@ image::images/mbc2_0402.png["ecc-curve"]
 
 Bitcoin uses a specific elliptic curve and set of mathematical constants, as defined in a standard called +secp256k1+, established by the National Institute of Standards and Technology (NIST). The +secp256k1+ curve is defined by the following function, which produces an elliptic curve:
 
-[latexmath]
+[monospaced]
 ++++
 \begin{equation}
 {y^2 = (x^3 + 7)}~\text{over}~(\mathbb{F}_p)
@@ -138,14 +138,14 @@ Bitcoin uses a specific elliptic curve and set of mathematical constants, as def
 
 or
 
-[latexmath]
+[monospaced]
 ++++
 \begin{equation}
 {y^2 \mod p = (x^3 + 7) \mod p}
 \end{equation}
 ++++
 
-The _mod p_ (modulo prime number p) indicates that this curve is over a finite field of prime order _p_, also written as latexmath:[\( \mathbb{F}_p \)], where p = 2^256^ – 2^32^ – 2^9^ – 2^8^ – 2^7^ – 2^6^ – 2^4^ – 1, a very large prime number.
+The _mod p_ (modulo prime number p) indicates that this curve is over a finite field of prime order _p_, also written as monospaced:[\( \mathbb{F}_p \)], where p = 2^256^ – 2^32^ – 2^9^ – 2^8^ – 2^7^ – 2^6^ – 2^4^ – 1, a very large prime number.
 
 Because this curve is defined over a finite field of prime order instead of over the real numbers, it looks like a pattern of dots scattered in two dimensions, which makes it difficult to visualize. However, the math is identical to that of an elliptic curve over real numbers. As an example, <<ecc-over-F17-math>> shows the same elliptic curve over a much smaller finite field of prime order 17, showing a pattern of dots on a grid. The +secp256k1+ bitcoin elliptic curve can be thought of as a much more complex pattern of dots on a unfathomably large grid.
 
@@ -201,7 +201,7 @@ Now that we have defined addition, we can define multiplication in the standard 
 
 ((("keys and addresses", "overview of", "public key generation")))((("generator point")))Starting with a private key in the form of a randomly generated number _k_, we multiply it by a predetermined point on the curve called the _generator point_ _G_ to produce another point somewhere else on the curve, which is the corresponding public key _K_. The generator point is specified as part of the +secp256k1+ standard and is always the same for all keys in bitcoin:
 
-[latexmath]
+[monospaced]
 ++++
 \begin{equation}
 {K = k * G}
@@ -260,7 +260,7 @@ The bitcoin address is what appears most commonly in a transaction as the "recip
 
 Starting with the public key _K_, we compute the SHA256 hash and then compute the RIPEMD160 hash of the result, producing a 160-bit (20-byte) number:
 
-[latexmath]
+[monospaced]
 ++++
 \begin{equation}
 {A = RIPEMD160(SHA256(K))}

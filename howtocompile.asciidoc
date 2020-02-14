@@ -3,16 +3,6 @@
 = How to compile
 == How to compile
 
-=== Prepare
-add this to top of book.asciidoc
-----
-= Mastering Bitcoin
-KULAP, Github
-Second Edition - Third Print
-:doctype: book
-:front-cover-image: image:images/cover.png[Front Cover,1050,1600]
-----
-
 === Compile to epub
 ----
 $ git clone https://github.com/bitcoinbook/bitcoinbook.git
@@ -23,6 +13,23 @@ $ git clone https://github.com/bitcoinbook/bitcoinbook.git
 .Chapter header
 image::images/chapter_header.png["Chapter header"]
 
+- Add this to top of book.asciidoc
+----
+= Mastering Bitcoin
+KULAP, Github
+Second Edition - Third Print
+:doctype: book
+:front-cover-image: image:images/cover.png[Front Cover,1050,1600]
+----
+
+- Replace latexmath to monospaced
+(duo to asciidoctor-epub3 doesn't support)
+---
+// replace all
+latexmath -> monospaced
+---
+
+- Compile to epub
 ----
 $ asciidoctor-epub3 -D output book.asciidoc
 ----
